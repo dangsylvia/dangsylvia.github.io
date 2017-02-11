@@ -1,0 +1,174 @@
+/*
+Theme Name: DANG Portfolio
+Theme URL: http://dangsylvia.com
+Author: Sylvia Dang
+*/
+
+
+/*--------------------------------------
+    PAGE
+--------------------------------------*/
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+    font-family: "raleway", helvetica, sans-serif;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.portfolio-grid{
+    width: 100%;
+    margin: 15px 0;
+}
+.portfolio-img{
+    margin: 30px 0;
+}
+.portfolio-img-shadow{
+    margin: 30px 0;
+    box-shadow: 5px 10px 10px #ccc;
+}
+.row{
+    margin: 0 15px;
+}
+
+/*--------------------------------------
+    TYPE + LINKS
+--------------------------------------*/
+a{
+    color: #ae549c;
+    text-decoration: none;
+}
+a:hover, a:focus a:visited{
+    color: #ae549c;
+}
+/*---HEADERS---*/
+
+/*---title---*/
+h1{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 9em;
+    padding: 0 30px;
+}
+
+/*---section---*/
+h2{
+    padding: 20px 0;
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ae549c;
+}
+
+/*--------------------------------------
+    NAVIGATION
+--------------------------------------*/
+nav{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 1;
+    background: #aaa;
+    font-size: 1.25em;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    padding: 25px 3% 15px;
+}
+nav li a{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+nav li a:hover, a:focus{
+    color: #fff;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: solid 4px #fff;
+}
+
+/*--------------------------------------
+    HEADER
+--------------------------------------*/
+#header{
+    background-image: url("../images/soliz.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+
+/*--------------------------------------
+    MAIN CONTENT SECTION
+--------------------------------------*/
+#content{
+    background: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.maincopy{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.8em;
+}
+.maincopy p a, p a:visited{
+    line-height: inherit;
+}
+
+/*--------------------------------------
+    FOOTER
+--------------------------------------*/
+#footer{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #ddd;
+}
+.foot{
+    display: block;
+    max-width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+    font-style: italic;
+    text-align: center;
+    color: #666;
+}
+.foot a{
+    font-style: normal;
+    color: #ae549c;
+}
+.foot a:hover, a:focus{
+    color: #fff;
+}
+
+/*--------------------------------------
+    ETC.
+--------------------------------------*/
+.divider{
+    border: solid 2px #aaa;
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.clear{
+    clear: both;
+}
